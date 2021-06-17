@@ -21,7 +21,8 @@
   },
   "dependencies": {
     "iwcrypto": "^1.0.8",
-	"iw-eth": "^1.0.6"
+	"iw-eth": "^1.0.6",
+	"iwax": "^1.0.6"
   },
   "author": "icanwallet",
   "license": "ISC"
