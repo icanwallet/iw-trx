@@ -1,6 +1,6 @@
 module.exports = {
 	"trongrid" : {
-		"url" : "https://api.trongrid.io/v1/"
+		"url" : "https://api.trongrid.io/"
 	},
 	"tronscan" : {
 		"url" : "https://apilist.tronscan.io/api/"

@@ -1,5 +1,5 @@
 import TronWeb from '../index';
-import utils from '../utils';
+import utils from './index';
 
 export default class Validator {
 

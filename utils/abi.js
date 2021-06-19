@@ -1,7 +1,7 @@
 //import {AbiCoder} from './ethersUtils';
 import TronWeb from '../index';
-import {ADDRESS_PREFIX, ADDRESS_PREFIX_REGEX} from '../utils/address';
-const AbiCoder = require('../../ethers/utils/abi-coder.js');
+import {ADDRESS_PREFIX, ADDRESS_PREFIX_REGEX} from './address';
+const AbiCoder = require('./eth/abi-coder.js');
 const abiCoder = new AbiCoder();
 export function decodeParams(names, types, output, ignoreMethodHash) {
 

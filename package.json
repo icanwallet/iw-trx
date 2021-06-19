@@ -1,6 +1,6 @@
 {
   "name": "iw-trx",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": ">> This project provides a simple package to realize the core logic of the wallet. If you have any questions, please ask at the following website [icanwallet](https://github.com/icanwallet/icanwallet)",
   "main": "iw-address.js",
   "homepage": "https://github.com/icanwallet/iw-trx",
@@ -20,9 +20,7 @@
     "url": "https://github.com/icanwallet/iw-trx/issues"
   },
   "dependencies": {
-    "iwcrypto": "^1.0.8",
-	"iw-eth": "^1.0.6",
-	"iwax": "^1.0.6"
+    "iwcrypto": "^1.1.1"
   },
   "author": "icanwallet",
   "license": "ISC"

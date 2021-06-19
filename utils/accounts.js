@@ -17,8 +17,6 @@ export function generateAccount() {
     return {
         privateKey,
 		mnemonic : '',
-        publicKey,
-        address: getBase58CheckAddress(addressBytes),
-		hexaddr : byteArray2hexStr(addressBytes)
+        address: getBase58CheckAddress(addressBytes)
     }
 }
